@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require 'volleycal'
+require 'open-uri'
+
+#io = open('http://www.volleyball-bundesliga.de/servlet/league/PlayingScheduleCsvExport?leagueId=8750636')
+io = File.open(File.expand_path('../../test/fixtures/Spielplan_1._Bundesliga_Frauen.csv', __FILE__), "r:Windows-1252") # as downloaded
+
+league = Volleycal::League.new(8750636, '1. Bundesliga Frauen')
+games = Volleycal::Parser.parse(io, league)
+
+puts "#{league} has #{games.size} games:"
+puts Volleycal::Calendar.new(games).to_ical
