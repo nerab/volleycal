@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Volleycal::VERSION
   spec.authors       = ['Nicholas E. Rabenau']
   spec.email         = ['nerab@gmx.at']
-  spec.summary       = %q{Volleyball Bundesliga als iCal}
+  spec.summary       = %q{iCal of the schedule of the German Volleyball 1. Bundesliga}
   spec.description   = %q{Converts Volleyball Bundesliga information into the iCal format}
   spec.homepage      = 'https://github.com/nerab/volleycal'
   spec.license       = 'MIT'

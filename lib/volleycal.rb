@@ -1,14 +1,6 @@
 require 'volleycal/version'
 require 'csv'
 
-CSV::Converters[:time2date] = lambda{|s|
-  begin
-    Time.parse(s).to_date
-  rescue ArgumentError
-    s
-  end
-}
-
 module Volleycal
   class League < Struct.new(:id, :title)
     alias :to_s :title
