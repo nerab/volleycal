@@ -1,16 +1,13 @@
 # -*- encoding: utf-8 -*-
 require 'helper'
-require 'open-uri'
 
 class TestFetch < Volleycal::TestCase
   include Volleycal
 
   def setup
-    io = mocked do
-      open('http://www.volleyball-bundesliga.de/servlet/league/PlayingScheduleCsvExport?leagueId=8750636')
+    @games = mocked do
+      League.lookup(8750636).games
     end
-
-    @games = Volleycal::Parser.parse(io, League.new(8750636, '1. Bundesliga Frauen'))
   end
 
   def test_size
@@ -20,7 +17,7 @@ class TestFetch < Volleycal::TestCase
   end
 
   def test_ical
-    stream = Volleycal::Calendar.new(@games).to_ical
+    stream = Calendar.new(@games).to_ical
     refute_nil(stream)
 
     cals = Icalendar.parse(stream)

@@ -1,0 +1,168 @@
+--- 
+http_interactions: 
+- request: 
+    method: get
+    uri: http://www.volleyball-bundesliga.de/servlet/league/PlayingScheduleCsvExport?leagueId=8750636
+    body: 
+      encoding: US-ASCII
+      string: ""
+    headers: 
+      Accept: 
+      - "*/*"
+      User-Agent: 
+      - Ruby
+  response: 
+    status: 
+      code: 200
+      message: OK
+    headers: 
+      Date: 
+      - Mon, 15 Dec 2014 21:59:25 GMT
+      Server: 
+      - Apache-Coyote/1.1
+      Content-Disposition: 
+      - attachment; filename=Spielplan_1._Bundesliga_Frauen.csv
+      Content-Type: 
+      - text/csv;charset=Windows-1252
+      Content-Length: 
+      - "17489"
+      Set-Cookie: 
+      - JSESSIONID=HYN-7ydNfchE50KNYpL6T-xh; Path=/
+    body: 
+      encoding: ASCII-8BIT
+      string: "\"Datum\";\"Uhrzeit\";\"#\";\"ST\";\"Mannschaft 1\";\"Mannschaft 2\";\"Gastgeber\";\"Austragungsort/Ergebnis\";\n\
+        \"18.10.2014\";\"14:30:00\";\"2004\";\"Spieltag 1\";\"VC Wiesbaden\";\"Rote Raben Vilsbiburg\";\"VC Wiesbaden\";\"3:0 / 79:64\";\n\
+        \"22.10.2014\";\"18:00:00\";\"2001\";\"Spieltag 1\";\"K\xF6penicker SC Berlin\";\"Schweriner SC\";\"K\xF6penicker SC Berlin\";\"0:3 / 63:75\";\n\
+        \"22.10.2014\";\"19:30:00\";\"2002\";\"Spieltag 1\";\"Dresdner SC\";\"Allianz MTV Stuttgart\";\"Dresdner SC\";\"3:1 / 98:78\";\n\
+        \"22.10.2014\";\"19:30:00\";\"2003\";\"Spieltag 1\";\"Ladies in Black Aachen\";\"SC Potsdam\";\"Ladies in Black Aachen\";\"2:3 / 114:110\";\n\
+        \"22.10.2014\";\"19:30:00\";\"2005\";\"Spieltag 1\";\"VolleyStars Th\xFCringen\";\"VT Aurubis Hamburg\";\"VolleyStars Th\xFCringen\";\"3:1 / 99:86\";\n\
+        \"25.10.2014\";\"18:00:00\";\"2074\";\"Spieltag 13\";\"K\xF6penicker SC Berlin\";\"Allianz MTV Stuttgart\";\"K\xF6penicker SC Berlin\";\"3:2 / 98:108\";\n\
+        \"25.10.2014\";\"18:00:00\";\"2141\";\"Spieltag 23\";\"VT Aurubis Hamburg\";\"VCO Berlin\";\"VT Aurubis Hamburg\";\"3:1 / 95:74\";\n\
+        \"25.10.2014\";\"18:30:00\";\"2007\";\"Spieltag 2\";\"SC Potsdam\";\"Dresdner SC\";\"SC Potsdam\";\"2:3 / 100:112\";\n\
+        \"25.10.2014\";\"19:00:00\";\"2006\";\"Spieltag 2\";\"Rote Raben Vilsbiburg\";\"Ladies in Black Aachen\";\"Rote Raben Vilsbiburg\";\"3:2 / 112:101\";\n\
+        \"25.10.2014\";\"19:00:00\";\"2009\";\"Spieltag 2\";\"Schweriner SC\";\"VolleyStars Th\xFCringen\";\"Schweriner SC\";\"3:1 / 91:82\";\n\
+        \"26.10.2014\";\"14:30:00\";\"2011\";\"Spieltag 2\";\"USC M\xFCnster\";\"VC Wiesbaden\";\"USC M\xFCnster\";\"1:3 / 80:101\";\n\
+        \"01.11.2014\";\"17:30:00\";\"2014\";\"Spieltag 3\";\"Dresdner SC\";\"Rote Raben Vilsbiburg\";\"Dresdner SC\";\"3:0 / 75:59\";\n\
+        \"01.11.2014\";\"18:00:00\";\"2013\";\"Spieltag 3\";\"K\xF6penicker SC Berlin\";\"SC Potsdam\";\"K\xF6penicker SC Berlin\";\"0:3 / 70:76\";\n\
+        \"01.11.2014\";\"18:00:00\";\"2016\";\"Spieltag 3\";\"VT Aurubis Hamburg\";\"Schweriner SC\";\"VT Aurubis Hamburg\";\"1:3 / 81:96\";\n\
+        \"01.11.2014\";\"19:00:00\";\"2015\";\"Spieltag 3\";\"Ladies in Black Aachen\";\"USC M\xFCnster\";\"Ladies in Black Aachen\";\"0:3 / 57:77\";\n\
+        \"01.11.2014\";\"19:00:00\";\"2017\";\"Spieltag 3\";\"VolleyStars Th\xFCringen\";\"Allianz MTV Stuttgart\";\"VolleyStars Th\xFCringen\";\"0:3 / 42:75\";\n\
+        \"08.11.2014\";\"18:30:00\";\"2019\";\"Spieltag 4\";\"SC Potsdam\";\"VolleyStars Th\xFCringen\";\"SC Potsdam\";\"3:1 / 100:91\";\n\
+        \"08.11.2014\";\"19:00:00\";\"2018\";\"Spieltag 4\";\"Rote Raben Vilsbiburg\";\"K\xF6penicker SC Berlin\";\"Rote Raben Vilsbiburg\";\"3:1 / 95:74\";\n\
+        \"08.11.2014\";\"19:00:00\";\"2139\";\"Spieltag 23\";\"Schweriner SC\";\"VCO Berlin\";\"Schweriner SC\";\"3:1 / 96:63\";\n\
+        \"08.11.2014\";\"19:00:00\";\"2022\";\"Spieltag 4\";\"VC Wiesbaden\";\"Ladies in Black Aachen\";\"VC Wiesbaden\";\"3:1 / 98:83\";\n\
+        \"08.11.2014\";\"19:30:00\";\"2020\";\"Spieltag 4\";\"Allianz MTV Stuttgart\";\"VT Aurubis Hamburg\";\"Allianz MTV Stuttgart\";\"3:1 / 100:72\";\n\
+        \"09.11.2014\";\"14:30:00\";\"2023\";\"Spieltag 4\";\"USC M\xFCnster\";\"Dresdner SC\";\"USC M\xFCnster\";\"1:3 / 83:95\";\n\
+        \"15.11.2014\";\"17:30:00\";\"2026\";\"Spieltag 5\";\"Dresdner SC\";\"VC Wiesbaden\";\"Dresdner SC\";\"3:1 / 101:94\";\n\
+        \"15.11.2014\";\"18:00:00\";\"2025\";\"Spieltag 5\";\"K\xF6penicker SC Berlin\";\"USC M\xFCnster\";\"K\xF6penicker SC Berlin\";\"3:2 / 106:93\";\n\
+        \"15.11.2014\";\"18:00:00\";\"2028\";\"Spieltag 5\";\"VT Aurubis Hamburg\";\"SC Potsdam\";\"VT Aurubis Hamburg\";\"2:3 / 97:111\";\n\
+        \"15.11.2014\";\"19:00:00\";\"2027\";\"Spieltag 5\";\"Schweriner SC\";\"Allianz MTV Stuttgart\";\"Schweriner SC\";\"3:2 / 100:102\";\n\
+        \"15.11.2014\";\"19:00:00\";\"2029\";\"Spieltag 5\";\"VolleyStars Th\xFCringen\";\"Rote Raben Vilsbiburg\";\"VolleyStars Th\xFCringen\";\"0:3 / 62:77\";\n\
+        \"16.11.2014\";\"15:00:00\";\"2154\";\"Spieltag 23\";\"VCO Berlin\";\"USC M\xFCnster\";\"VCO Berlin\";\"0:3 / 57:75\";\n\
+        \"19.11.2014\";\"19:30:00\";\"2136\";\"Spieltag 23\";\"Dresdner SC\";\"VCO Berlin\";\"Dresdner SC\";\"3:0 / 75:37\";\n\
+        \"22.11.2014\";\"18:30:00\";\"2031\";\"Spieltag 6\";\"SC Potsdam\";\"Schweriner SC\";\"SC Potsdam\";\"2:3 / 96:112\";\n\
+        \"22.11.2014\";\"19:00:00\";\"2033\";\"Spieltag 6\";\"Ladies in Black Aachen\";\"Dresdner SC\";\"Ladies in Black Aachen\";\"1:3 / 76:97\";\n\
+        \"22.11.2014\";\"19:00:00\";\"2030\";\"Spieltag 6\";\"Rote Raben Vilsbiburg\";\"VT Aurubis Hamburg\";\"Rote Raben Vilsbiburg\";\"3:2 / 108:103\";\n\
+        \"22.11.2014\";\"19:00:00\";\"2034\";\"Spieltag 6\";\"VC Wiesbaden\";\"K\xF6penicker SC Berlin\";\"VC Wiesbaden\";\"3:0 / 75:47\";\n\
+        \"22.11.2014\";\"19:30:00\";\"2137\";\"Spieltag 23\";\"Allianz MTV Stuttgart\";\"VCO Berlin\";\"Allianz MTV Stuttgart\";\"3:1 / 96:74\";\n\
+        \"23.11.2014\";\"14:30:00\";\"2035\";\"Spieltag 6\";\"USC M\xFCnster\";\"VolleyStars Th\xFCringen\";\"USC M\xFCnster\";\"2:3 / 97:102\";\n\
+        \"23.11.2014\";\"16:00:00\";\"2140\";\"Spieltag 23\";\"VC Wiesbaden\";\"VCO Berlin\";\"VC Wiesbaden\";\"3:1 / 96:78\";\n\
+        \"29.11.2014\";\"18:00:00\";\"2037\";\"Spieltag 7\";\"K\xF6penicker SC Berlin\";\"Ladies in Black Aachen\";\"K\xF6penicker SC Berlin\";\"0:3 / 64:78\";\n\
+        \"29.11.2014\";\"18:00:00\";\"2040\";\"Spieltag 7\";\"VT Aurubis Hamburg\";\"USC M\xFCnster\";\"VT Aurubis Hamburg\";\"3:1 / 91:84\";\n\
+        \"29.11.2014\";\"19:00:00\";\"2039\";\"Spieltag 7\";\"Schweriner SC\";\"Rote Raben Vilsbiburg\";\"Schweriner SC\";\"3:0 / 75:61\";\n\
+        \"29.11.2014\";\"19:00:00\";\"2041\";\"Spieltag 7\";\"VolleyStars Th\xFCringen\";\"VC Wiesbaden\";\"VolleyStars Th\xFCringen\";\"2:3 / 92:103\";\n\
+        \"29.11.2014\";\"19:30:00\";\"2038\";\"Spieltag 7\";\"Allianz MTV Stuttgart\";\"SC Potsdam\";\"Allianz MTV Stuttgart\";\"3:0 / 75:56\";\n\
+        \"30.11.2014\";\"15:00:00\";\"2150\";\"Spieltag 23\";\"VCO Berlin\";\"Ladies in Black Aachen\";\"VCO Berlin\";\"0:3 / 63:76\";\n\
+        \"06.12.2014\";\"17:30:00\";\"2044\";\"Spieltag 8\";\"Dresdner SC\";\"K\xF6penicker SC Berlin\";\"Dresdner SC\";\"3:2 / 111:100\";\n\
+        \"06.12.2014\";\"18:30:00\";\"2135\";\"Spieltag 23\";\"SC Potsdam\";\"VCO Berlin\";\"SC Potsdam\";\"3:1 / 97:81\";\n\
+        \"06.12.2014\";\"19:00:00\";\"2046\";\"Spieltag 8\";\"VC Wiesbaden\";\"VT Aurubis Hamburg\";\"VC Wiesbaden\";\"3:0 / 75:49\";\n\
+        \"07.12.2014\";\"14:30:00\";\"2047\";\"Spieltag 8\";\"USC M\xFCnster\";\"Schweriner SC\";\"USC M\xFCnster\";\"3:2 / 92:94\";\n\
+        \"07.12.2014\";\"15:00:00\";\"2042\";\"Spieltag 8\";\"Rote Raben Vilsbiburg\";\"Allianz MTV Stuttgart\";\"Rote Raben Vilsbiburg\";\"0:3 / 41:75\";\n\
+        \"07.12.2014\";\"18:00:00\";\"2045\";\"Spieltag 8\";\"Ladies in Black Aachen\";\"VolleyStars Th\xFCringen\";\"Ladies in Black Aachen\";\"2:3 / 100:96\";\n\
+        \"13.12.2014\";\"18:00:00\";\"2052\";\"Spieltag 9\";\"VT Aurubis Hamburg\";\"Ladies in Black Aachen\";\"VT Aurubis Hamburg\";\"1:3 / 97:98\";\n\
+        \"13.12.2014\";\"18:30:00\";\"2049\";\"Spieltag 9\";\"SC Potsdam\";\"Rote Raben Vilsbiburg\";\"SC Potsdam\";\"3:2 / 110:97\";\n\
+        \"13.12.2014\";\"19:00:00\";\"2051\";\"Spieltag 9\";\"Schweriner SC\";\"VC Wiesbaden\";\"Schweriner SC\";\"2:3 / 103:101\";\n\
+        \"13.12.2014\";\"19:00:00\";\"2053\";\"Spieltag 9\";\"VolleyStars Th\xFCringen\";\"Dresdner SC\";\"VolleyStars Th\xFCringen\";\"1:3 / 83:93\";\n\
+        \"13.12.2014\";\"19:30:00\";\"2050\";\"Spieltag 9\";\"Allianz MTV Stuttgart\";\"USC M\xFCnster\";\"Allianz MTV Stuttgart\";\"3:1 / 95:90\";\n\
+        \"14.12.2014\";\"15:00:00\";\"2134\";\"Spieltag 23\";\"K\xF6penicker SC Berlin\";\"VCO Berlin\";\"K\xF6penicker SC Berlin\";\"3:0 / 76:61\";\n\
+        \"17.12.2014\";\"19:00:00\";\"2092\";\"Spieltag 16\";\"VC Wiesbaden\";\"Dresdner SC\";\"VC Wiesbaden\";\"Sporthalle am Platz der Deutschen Einheit (65185 Wiesbaden)\";\n\
+        \"20.12.2014\";\"17:30:00\";\"2056\";\"Spieltag 10\";\"Dresdner SC\";\"VT Aurubis Hamburg\";\"Dresdner SC\";\"Margon Arena (01277 Dresden)\";\n\
+        \"20.12.2014\";\"18:00:00\";\"2055\";\"Spieltag 10\";\"K\xF6penicker SC Berlin\";\"VolleyStars Th\xFCringen\";\"K\xF6penicker SC Berlin\";\"Sporthalle H\xE4mmerlingstra\xDFe (12555 Berlin)\";\n\
+        \"20.12.2014\";\"19:00:00\";\"2057\";\"Spieltag 10\";\"Ladies in Black Aachen\";\"Schweriner SC\";\"Ladies in Black Aachen\";\"Neuk\xF6llner Stra\xDFe (52068 Aachen)\";\n\
+        \"20.12.2014\";\"19:00:00\";\"2058\";\"Spieltag 10\";\"VC Wiesbaden\";\"Allianz MTV Stuttgart\";\"VC Wiesbaden\";\"Sporthalle am Platz der Deutschen Einheit (65185 Wiesbaden)\";\n\
+        \"20.12.2014\";\"19:00:00\";\"2145\";\"Spieltag 23\";\"VCO Berlin\";\"Rote Raben Vilsbiburg\";\"VCO Berlin\";\"Sportforum Hohensch\xF6nhausen (13053 Berlin)\";\n\
+        \"21.12.2014\";\"14:30:00\";\"2059\";\"Spieltag 10\";\"USC M\xFCnster\";\"SC Potsdam\";\"USC M\xFCnster\";\"Sporthalle Berg Fidel (48153 M\xFCnster)\";\n\
+        \"21.12.2014\";\"15:00:00\";\"2155\";\"Spieltag 23\";\"VCO Berlin\";\"VolleyStars Th\xFCringen\";\"VCO Berlin\";\"Sportforum Hohensch\xF6nhausen (13053 Berlin)\";\n\
+        \"30.12.2014\";\"19:00:00\";\"2062\";\"Spieltag 11\";\"Allianz MTV Stuttgart\";\"Ladies in Black Aachen\";\"Allianz MTV Stuttgart\";\"SCHARRena Stuttgart (70372 Stuttgart)\";\n\
+        \"30.12.2014\";\"19:00:00\";\"2060\";\"Spieltag 11\";\"Rote Raben Vilsbiburg\";\"USC M\xFCnster\";\"Rote Raben Vilsbiburg\";\"Ballsporthalle Vilsbiburg (84137 Vilsbiburg)\";\n\
+        \"30.12.2014\";\"19:00:00\";\"2061\";\"Spieltag 11\";\"SC Potsdam\";\"VC Wiesbaden\";\"SC Potsdam\";\"MBS-Arena Potsdam (14471 Potsdam)\";\n\
+        \"30.12.2014\";\"19:00:00\";\"2063\";\"Spieltag 11\";\"Schweriner SC\";\"Dresdner SC\";\"Schweriner SC\";\"ARENA Schwerin (19059 Schwerin)\";\n\
+        \"30.12.2014\";\"20:00:00\";\"2064\";\"Spieltag 11\";\"VT Aurubis Hamburg\";\"K\xF6penicker SC Berlin\";\"VT Aurubis Hamburg\";\"CU Arena (21147 Hamburg)\";\n\
+        \"03.01.2015\";\"18:00:00\";\"2071\";\"Spieltag 12\";\"VT Aurubis Hamburg\";\"VolleyStars Th\xFCringen\";\"VT Aurubis Hamburg\";\"CU Arena (21147 Hamburg)\";\n\
+        \"03.01.2015\";\"18:30:00\";\"2069\";\"Spieltag 12\";\"SC Potsdam\";\"Ladies in Black Aachen\";\"SC Potsdam\";\"MBS-Arena Potsdam (14471 Potsdam)\";\n\
+        \"03.01.2015\";\"19:00:00\";\"2070\";\"Spieltag 12\";\"Rote Raben Vilsbiburg\";\"VC Wiesbaden\";\"Rote Raben Vilsbiburg\";\"Ballsporthalle Vilsbiburg (84137 Vilsbiburg)\";\n\
+        \"03.01.2015\";\"19:00:00\";\"2067\";\"Spieltag 12\";\"Schweriner SC\";\"K\xF6penicker SC Berlin\";\"Schweriner SC\";\"ARENA Schwerin (19059 Schwerin)\";\n\
+        \"03.01.2015\";\"19:30:00\";\"2068\";\"Spieltag 12\";\"Allianz MTV Stuttgart\";\"Dresdner SC\";\"Allianz MTV Stuttgart\";\"SCHARRena Stuttgart (70372 Stuttgart)\";\n\
+        \"07.01.2015\";\"19:30:00\";\"2008\";\"Spieltag 2\";\"Allianz MTV Stuttgart\";\"K\xF6penicker SC Berlin\";\"Allianz MTV Stuttgart\";\"SCHARRena Stuttgart (70372 Stuttgart)\";\n\
+        \"07.01.2015\";\"19:30:00\";\"2073\";\"Spieltag 13\";\"Dresdner SC\";\"SC Potsdam\";\"Dresdner SC\";\"Margon Arena (01277 Dresden)\";\n\
+        \"07.01.2015\";\"19:30:00\";\"2072\";\"Spieltag 13\";\"Ladies in Black Aachen\";\"Rote Raben Vilsbiburg\";\"Ladies in Black Aachen\";\"Neuk\xF6llner Stra\xDFe (52068 Aachen)\";\n\
+        \"07.01.2015\";\"19:30:00\";\"2075\";\"Spieltag 13\";\"VolleyStars Th\xFCringen\";\"Schweriner SC\";\"VolleyStars Th\xFCringen\";\"Sporthalle Wolfsgrube (98527 Suhl)\";\n\
+        \"10.01.2015\";\"18:30:00\";\"2079\";\"Spieltag 14\";\"SC Potsdam\";\"K\xF6penicker SC Berlin\";\"SC Potsdam\";\"MBS-Arena Potsdam (14471 Potsdam)\";\n\
+        \"10.01.2015\";\"19:00:00\";\"2080\";\"Spieltag 14\";\"Rote Raben Vilsbiburg\";\"Dresdner SC\";\"Rote Raben Vilsbiburg\";\"Ballsporthalle Vilsbiburg (84137 Vilsbiburg)\";\n\
+        \"10.01.2015\";\"19:00:00\";\"2082\";\"Spieltag 14\";\"Schweriner SC\";\"VT Aurubis Hamburg\";\"Schweriner SC\";\"ARENA Schwerin (19059 Schwerin)\";\n\
+        \"10.01.2015\";\"19:30:00\";\"2083\";\"Spieltag 14\";\"Allianz MTV Stuttgart\";\"VolleyStars Th\xFCringen\";\"Allianz MTV Stuttgart\";\"SCHARRena Stuttgart (70372 Stuttgart)\";\n\
+        \"14.01.2015\";\"18:00:00\";\"2084\";\"Spieltag 15\";\"K\xF6penicker SC Berlin\";\"Rote Raben Vilsbiburg\";\"K\xF6penicker SC Berlin\";\"Sporthalle H\xE4mmerlingstra\xDFe (12555 Berlin)\";\n\
+        \"14.01.2015\";\"19:30:00\";\"2088\";\"Spieltag 15\";\"Ladies in Black Aachen\";\"VC Wiesbaden\";\"Ladies in Black Aachen\";\"Neuk\xF6llner Stra\xDFe (52068 Aachen)\";\n\
+        \"14.01.2015\";\"19:30:00\";\"2085\";\"Spieltag 15\";\"VolleyStars Th\xFCringen\";\"SC Potsdam\";\"VolleyStars Th\xFCringen\";\"Sporthalle Wolfsgrube (98527 Suhl)\";\n\
+        \"14.01.2015\";\"20:00:00\";\"2086\";\"Spieltag 15\";\"VT Aurubis Hamburg\";\"Allianz MTV Stuttgart\";\"VT Aurubis Hamburg\";\"CU Arena (21147 Hamburg)\";\n\
+        \"16.01.2015\";\"19:30:00\";\"2138\";\"Spieltag 23\";\"Ladies in Black Aachen\";\"VCO Berlin\";\"Ladies in Black Aachen\";\"Neuk\xF6llner Stra\xDFe (52068 Aachen)\";\n\
+        \"17.01.2015\";\"14:30:00\";\"2142\";\"Spieltag 23\";\"USC M\xFCnster\";\"VCO Berlin\";\"USC M\xFCnster\";\"Sporthalle Berg Fidel (48153 M\xFCnster)\";\n\
+        \"17.01.2015\";\"19:00:00\";\"2095\";\"Spieltag 16\";\"Rote Raben Vilsbiburg\";\"VolleyStars Th\xFCringen\";\"Rote Raben Vilsbiburg\";\"Ballsporthalle Vilsbiburg (84137 Vilsbiburg)\";\n\
+        \"18.01.2015\";\"14:30:00\";\"2091\";\"Spieltag 16\";\"USC M\xFCnster\";\"K\xF6penicker SC Berlin\";\"USC M\xFCnster\";\"Sporthalle Berg Fidel (48153 M\xFCnster)\";\n\
+        \"18.01.2015\";\"16:00:00\";\"2094\";\"Spieltag 16\";\"SC Potsdam\";\"VT Aurubis Hamburg\";\"SC Potsdam\";\"MBS-Arena Potsdam (14471 Potsdam)\";\n\
+        \"21.01.2015\";\"19:30:00\";\"2081\";\"Spieltag 14\";\"USC M\xFCnster\";\"Ladies in Black Aachen\";\"USC M\xFCnster\";\"Sporthalle Berg Fidel (48153 M\xFCnster)\";\n\
+        \"24.01.2015\";\"14:00:00\";\"2149\";\"Spieltag 23\";\"VCO Berlin\";\"Allianz MTV Stuttgart\";\"VCO Berlin\";\"Sportforum Hohensch\xF6nhausen (13053 Berlin)\";\n\
+        \"24.01.2015\";\"18:00:00\";\"2100\";\"Spieltag 17\";\"K\xF6penicker SC Berlin\";\"VC Wiesbaden\";\"K\xF6penicker SC Berlin\";\"Sporthalle H\xE4mmerlingstra\xDFe (12555 Berlin)\";\n\
+        \"24.01.2015\";\"18:00:00\";\"2096\";\"Spieltag 17\";\"VT Aurubis Hamburg\";\"Rote Raben Vilsbiburg\";\"VT Aurubis Hamburg\";\"CU Arena (21147 Hamburg)\";\n\
+        \"24.01.2015\";\"19:00:00\";\"2097\";\"Spieltag 17\";\"Schweriner SC\";\"SC Potsdam\";\"Schweriner SC\";\"ARENA Schwerin (19059 Schwerin)\";\n\
+        \"24.01.2015\";\"19:00:00\";\"2101\";\"Spieltag 17\";\"VolleyStars Th\xFCringen\";\"USC M\xFCnster\";\"VolleyStars Th\xFCringen\";\"Sporthalle Wolfsgrube (98527 Suhl)\";\n\
+        \"25.01.2015\";\"14:00:00\";\"2099\";\"Spieltag 17\";\"Dresdner SC\";\"Ladies in Black Aachen\";\"Dresdner SC\";\"Margon Arena (01277 Dresden)\";\n\
+        \"25.01.2015\";\"15:00:00\";\"2152\";\"Spieltag 23\";\"VCO Berlin\";\"VC Wiesbaden\";\"VCO Berlin\";\"Sportforum Hohensch\xF6nhausen (13053 Berlin)\";\n\
+        \"28.01.2015\";\"19:00:00\";\"2105\";\"Spieltag 18\";\"Rote Raben Vilsbiburg\";\"Schweriner SC\";\"Rote Raben Vilsbiburg\";\"Ballsporthalle Vilsbiburg (84137 Vilsbiburg)\";\n\
+        \"28.01.2015\";\"19:00:00\";\"2104\";\"Spieltag 18\";\"SC Potsdam\";\"Allianz MTV Stuttgart\";\"SC Potsdam\";\"MBS-Arena Potsdam (14471 Potsdam)\";\n\
+        \"28.01.2015\";\"19:00:00\";\"2107\";\"Spieltag 18\";\"VC Wiesbaden\";\"VolleyStars Th\xFCringen\";\"VC Wiesbaden\";\"Sporthalle am Platz der Deutschen Einheit (65185 Wiesbaden)\";\n\
+        \"28.01.2015\";\"19:00:00\";\"2148\";\"Spieltag 23\";\"VCO Berlin\";\"Dresdner SC\";\"VCO Berlin\";\"Sportforum Hohensch\xF6nhausen (13053 Berlin)\";\n\
+        \"28.01.2015\";\"19:30:00\";\"2103\";\"Spieltag 18\";\"Ladies in Black Aachen\";\"K\xF6penicker SC Berlin\";\"Ladies in Black Aachen\";\"Neuk\xF6llner Stra\xDFe (52068 Aachen)\";\n\
+        \"28.01.2015\";\"19:30:00\";\"2106\";\"Spieltag 18\";\"USC M\xFCnster\";\"VT Aurubis Hamburg\";\"USC M\xFCnster\";\"Sporthalle Berg Fidel (48153 M\xFCnster)\";\n\
+        \"31.01.2015\";\"18:00:00\";\"2110\";\"Spieltag 19\";\"K\xF6penicker SC Berlin\";\"Dresdner SC\";\"K\xF6penicker SC Berlin\";\"Sporthalle H\xE4mmerlingstra\xDFe (12555 Berlin)\";\n\
+        \"31.01.2015\";\"18:00:00\";\"2112\";\"Spieltag 19\";\"VT Aurubis Hamburg\";\"VC Wiesbaden\";\"VT Aurubis Hamburg\";\"CU Arena (21147 Hamburg)\";\n\
+        \"31.01.2015\";\"19:00:00\";\"2113\";\"Spieltag 19\";\"Schweriner SC\";\"USC M\xFCnster\";\"Schweriner SC\";\"ARENA Schwerin (19059 Schwerin)\";\n\
+        \"31.01.2015\";\"19:00:00\";\"2147\";\"Spieltag 23\";\"VCO Berlin\";\"SC Potsdam\";\"VCO Berlin\";\"Sportforum Hohensch\xF6nhausen (13053 Berlin)\";\n\
+        \"31.01.2015\";\"19:00:00\";\"2111\";\"Spieltag 19\";\"VolleyStars Th\xFCringen\";\"Ladies in Black Aachen\";\"VolleyStars Th\xFCringen\";\"Sporthalle Wolfsgrube (98527 Suhl)\";\n\
+        \"31.01.2015\";\"19:30:00\";\"2108\";\"Spieltag 19\";\"Allianz MTV Stuttgart\";\"Rote Raben Vilsbiburg\";\"Allianz MTV Stuttgart\";\"SCHARRena Stuttgart (70372 Stuttgart)\";\n\
+        \"04.02.2015\";\"19:00:00\";\"2151\";\"Spieltag 23\";\"VCO Berlin\";\"Schweriner SC\";\"VCO Berlin\";\"Sportforum Hohensch\xF6nhausen (13053 Berlin)\";\n\
+        \"04.02.2015\";\"19:30:00\";\"2089\";\"Spieltag 15\";\"Dresdner SC\";\"USC M\xFCnster\";\"Dresdner SC\";\"Margon Arena (01277 Dresden)\";\n\
+        \"07.02.2015\";\"17:30:00\";\"2119\";\"Spieltag 20\";\"Dresdner SC\";\"VolleyStars Th\xFCringen\";\"Dresdner SC\";\"Margon Arena (01277 Dresden)\";\n\
+        \"07.02.2015\";\"19:00:00\";\"2118\";\"Spieltag 20\";\"Ladies in Black Aachen\";\"VT Aurubis Hamburg\";\"Ladies in Black Aachen\";\"Neuk\xF6llner Stra\xDFe (52068 Aachen)\";\n\
+        \"07.02.2015\";\"19:00:00\";\"2115\";\"Spieltag 20\";\"Rote Raben Vilsbiburg\";\"SC Potsdam\";\"Rote Raben Vilsbiburg\";\"Ballsporthalle Vilsbiburg (84137 Vilsbiburg)\";\n\
+        \"07.02.2015\";\"19:00:00\";\"2117\";\"Spieltag 20\";\"VC Wiesbaden\";\"Schweriner SC\";\"VC Wiesbaden\";\"Sporthalle am Platz der Deutschen Einheit (65185 Wiesbaden)\";\n\
+        \"08.02.2015\";\"14:30:00\";\"2116\";\"Spieltag 20\";\"USC M\xFCnster\";\"Allianz MTV Stuttgart\";\"USC M\xFCnster\";\"Sporthalle Berg Fidel (48153 M\xFCnster)\";\n\
+        \"08.02.2015\";\"15:00:00\";\"2146\";\"Spieltag 23\";\"VCO Berlin\";\"K\xF6penicker SC Berlin\";\"VCO Berlin\";\"Sportforum Hohensch\xF6nhausen (13053 Berlin)\";\n\
+        \"10.02.2015\";\"19:00:00\";\"2093\";\"Spieltag 16\";\"Allianz MTV Stuttgart\";\"Schweriner SC\";\"Allianz MTV Stuttgart\";\"SCHARRena Stuttgart (70372 Stuttgart)\";\n\
+        \"11.02.2015\";\"19:00:00\";\"2077\";\"Spieltag 13\";\"VC Wiesbaden\";\"USC M\xFCnster\";\"VC Wiesbaden\";\"Sporthalle am Platz der Deutschen Einheit (65185 Wiesbaden)\";\n\
+        \"11.02.2015\";\"19:00:00\";\"2153\";\"Spieltag 23\";\"VCO Berlin\";\"VT Aurubis Hamburg\";\"VCO Berlin\";\"Sportforum Hohensch\xF6nhausen (13053 Berlin)\";\n\
+        \"14.02.2015\";\"18:00:00\";\"2122\";\"Spieltag 21\";\"VT Aurubis Hamburg\";\"Dresdner SC\";\"VT Aurubis Hamburg\";\"CU Arena (21147 Hamburg)\";\n\
+        \"14.02.2015\";\"19:00:00\";\"2133\";\"Spieltag 23\";\"Rote Raben Vilsbiburg\";\"VCO Berlin\";\"Rote Raben Vilsbiburg\";\"Ballsporthalle Vilsbiburg (84137 Vilsbiburg)\";\n\
+        \"14.02.2015\";\"19:00:00\";\"2123\";\"Spieltag 21\";\"Schweriner SC\";\"Ladies in Black Aachen\";\"Schweriner SC\";\"ARENA Schwerin (19059 Schwerin)\";\n\
+        \"14.02.2015\";\"19:00:00\";\"2121\";\"Spieltag 21\";\"VolleyStars Th\xFCringen\";\"K\xF6penicker SC Berlin\";\"VolleyStars Th\xFCringen\";\"Sporthalle Wolfsgrube (98527 Suhl)\";\n\
+        \"14.02.2015\";\"19:30:00\";\"2124\";\"Spieltag 21\";\"Allianz MTV Stuttgart\";\"VC Wiesbaden\";\"Allianz MTV Stuttgart\";\"SCHARRena Stuttgart (70372 Stuttgart)\";\n\
+        \"15.02.2015\";\"14:30:00\";\"2143\";\"Spieltag 23\";\"VolleyStars Th\xFCringen\";\"VCO Berlin\";\"VolleyStars Th\xFCringen\";\"Sporthalle Wolfsgrube (98527 Suhl)\";\n\
+        \"15.02.2015\";\"16:00:00\";\"2125\";\"Spieltag 21\";\"SC Potsdam\";\"USC M\xFCnster\";\"SC Potsdam\";\"MBS-Arena Potsdam (14471 Potsdam)\";\n\
+        \"21.02.2015\";\"19:30:00\";\"2129\";\"Spieltag 22\";\"Dresdner SC\";\"Schweriner SC\";\"Dresdner SC\";\"Margon Arena (01277 Dresden)\";\n\
+        \"21.02.2015\";\"19:30:00\";\"2130\";\"Spieltag 22\";\"K\xF6penicker SC Berlin\";\"VT Aurubis Hamburg\";\"K\xF6penicker SC Berlin\";\"Sporthalle H\xE4mmerlingstra\xDFe (12555 Berlin)\";\n\
+        \"21.02.2015\";\"19:30:00\";\"2128\";\"Spieltag 22\";\"Ladies in Black Aachen\";\"Allianz MTV Stuttgart\";\"Ladies in Black Aachen\";\"Neuk\xF6llner Stra\xDFe (52068 Aachen)\";\n\
+        \"21.02.2015\";\"19:30:00\";\"2126\";\"Spieltag 22\";\"USC M\xFCnster\";\"Rote Raben Vilsbiburg\";\"USC M\xFCnster\";\"Sporthalle Berg Fidel (48153 M\xFCnster)\";\n\
+        \"21.02.2015\";\"19:30:00\";\"2127\";\"Spieltag 22\";\"VC Wiesbaden\";\"SC Potsdam\";\"VC Wiesbaden\";\"Sporthalle am Platz der Deutschen Einheit (65185 Wiesbaden)\";\n"
+    http_version: 
+  recorded_at: Mon, 15 Dec 2014 21:59:26 GMT
+recorded_with: VCR 2.9.3
