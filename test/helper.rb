@@ -9,7 +9,7 @@ VCR.configure do |c|
 end
 
 module Volleycal
-  class TestCase < MiniTest::Unit::TestCase
+  class TestCase < MiniTest::Test
     def mocked(cassette = name, &block)
       VCR.use_cassette("#{self.class.name}_#{cassette}", :record => :new_episodes){block.call}
     end
