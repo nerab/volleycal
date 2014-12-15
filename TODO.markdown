@@ -1,2 +1,3 @@
 # TODO
-* Follow the [ohrka](https://github.com/nerab/ohrka-feed/) example for a simple web app
+* Team members, e.g. from http://www.volleyball-bundesliga.de/servlet/sportsclub/TeamMemberCsvExport?teamId=8750743
+* Calendar for a team
