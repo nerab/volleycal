@@ -1,9 +1,6 @@
 ruby '2.1.2'
 source 'https://rubygems.org'
 
-# Turn off gemspec and list deps here for Docker
-#gemspec
-
 gem 'icalendar'
 gem 'activesupport'
 gem 'rack'
