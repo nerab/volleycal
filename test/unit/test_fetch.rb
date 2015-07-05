@@ -27,7 +27,7 @@ class TestFetch < Volleycal::TestCase
     cal = cals.first
     assert_equal(132, cal.events.size)
     assert_equal('Dresdner SC - Köpenicker SC Berlin', cal.events[42].summary)
-    assert_equal(1422473400, cal.events[102].dtstart.to_i)
+    assert_equal(1422727200, cal.events[102].dtstart.to_i)
     assert_equal(1420923300, cal.events[78].dtend.to_i)
   end
 end
