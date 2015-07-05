@@ -14,21 +14,18 @@ There is a `Vagrantfile` for testing the docker image via docker:
 
 # Production Installation
 
-volleycal is dockerized, but not published to the docker hub yet. You can easily build and run the container like this:
+volleycal is dockerized, but not published to the docker hub yet. You can easily build an image and run a container from it like this:
 
-1. Clone the project
+1. Build the image from the git repo and tag it as `nerab/volleycal`
 
-        $ git clone https://github.com/nerab/volleycal.git
+        $ cd volleycal
+        $ sudo docker build -t nerab/volleycal https://github.com/nerab/volleycal.git
 
-1. Build the container
+1. Create the container and map the container's port 5000 to a free one on the host:
 
-        $ sudo docker build -t nerab/volleycal .
+        $ sudo docker run -p 49257:5000 --detach=true nerab/volleycal --name volleycal
 
-1. Run the container and map the container's port 5000 to one that's free on the host:
-
-        $ sudo docker run -p 49257:5000 -d nerab/volleycal
-
-1. Configure upstart to auto-start the container after the host boots
+1. Configure upstart to start the container after the host boots:
 
         $ cp volleycal.conf /etc/init
 
